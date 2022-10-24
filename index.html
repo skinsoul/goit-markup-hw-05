@@ -51,7 +51,7 @@
      <section class="primary-section">
         <div class="container">
             <h1 class="primary-hero">Ефективні рішення для вашого бізнесу</h1>
-            <button class="primary-button">Замовити послугу</button>
+            <button class="primary-button" data-modal-open>Замовити послугу</button>
 
         </div>
      </section>
@@ -333,5 +333,11 @@
             </div>
        </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="backdrop-but" data-modal-close>x</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
